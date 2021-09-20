@@ -1,6 +1,6 @@
 aside {
   width: 30%;
-  padding-left: 15px;
+  padding-left: 10px;
   float: right;
   font-style: italic;
   background-color: lightblue;
@@ -10,23 +10,24 @@ details > summary {
   width: 200px;
   background-color: #eeefff;
   border: none;
-  box-shadow: 1px 1px 2px #bbbbbb;
+  box-shadow: 1px 1px 4px #bbbbbb;
   cursor:pointer;
 }
 details > p {
-  background-color: #eeefff;
+  background-color: #1fccde;
   padding: 4px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
 }
 figure {
-  border: 1px #cccccc solid;
+  border: 4px #cccccc solid;
   padding: 10px;
   margin: inherit;
 }
 figcaption {
   background-color: lightblue;
   color: gray;
+  font-size: 16px;
   font-style: italic;
   padding: 2px;
   text-align: left;
@@ -34,11 +35,16 @@ figcaption {
 main {
   margin: 0;
   padding: 5px;
-  background-color: lightgray;
+  background-color: #dff7fb;
 }
 main > h1, p, .browser {
   margin: 10px;
   padding: 5px;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
 }
 .browser {
   background: white;
