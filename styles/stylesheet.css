@@ -53,10 +53,6 @@ main > h1, p, .browser {
   margin: 4px;
   font-size: 90%;
 }
-mark {
-  background-color: lightgreen;
-  color: black;
-}
 table, th, td {
   border: 1px solid black;
 }

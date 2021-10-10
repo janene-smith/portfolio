@@ -1,10 +1,36 @@
 aside {
-width:auto;
+width:30%;
 padding-left: 10px;
 float:right;
 font-style: normal;
-text-decoration-color: darkgray;
+text-decoration-color: #696969;
+}
+.topnav {
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #4a4e51;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 17;
+}
+section {
 
+}
+header > a {
+  background-color: lightgray;
+  color: #808080;
+  padding:.5rem;
+}
+
+
+.tealtext > a {
+  color: #25b4d2;
 }
 figure {
   padding: 10px;
