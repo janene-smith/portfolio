@@ -43,14 +43,6 @@ h2 {
   font-weight:bold;
   font-size: 1.2rem;
 }
-/*Column container
-.row {
-  display: -ms-flexbox;
-  display:flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap:wrap;
-}
-*/
 .all-browsers {
   margin: 0;
   padding: 15rem 15rem 15rem 15rem;
