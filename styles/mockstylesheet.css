@@ -13,7 +13,6 @@ body {
   text-align: left;
   background-color: #25b4d2;
   color: #ffffff;
-
 }
 h1 {
   font-size: 70px;
@@ -69,8 +68,9 @@ h3 {
 .article img {
   width: 230px;
   padding: 0;
+  position: relative;
 }
-figure {
+.article figure {
   border: 0;
   padding: 0;
   margin: inherit;
@@ -96,6 +96,17 @@ p {
   font-family: sans-serif;
   font-size: 1em;
   font-stretch: ultra-expanded;
+}
+.kitty-profile {
+  height: auto;
+  background-color: #e8e8e8;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0;
+  position:relative;
+}
+.kitty-profile h3 {
+  text-align: center;
 }
 .side {
   border: 0;
@@ -135,12 +146,14 @@ figure {
 }
 figcaption {
   font-family: sans-serif;
-  color: #25b4d2;
+  color: #4a4e51;
+  font-size: 12px;
 }
 img {
   width: 230px;
   padding: 0;
 }
+
 .footer {
   padding: 20px;
   width: 100%;
