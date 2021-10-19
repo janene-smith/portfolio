@@ -34,12 +34,24 @@ h2 {
   float:left;
   display: block;
   color: #4a4e51;
-  text-align:left;
+  text-align:center;
   padding:  1rem 1rem 1rem 1rem;
   text-decoration: none;
   font-family: sans-serif;
   font-weight:bold;
   font-size: 1.2rem;
+}
+.topnav a:hover {
+  background-color: #e8e8e8;
+}
+.active {
+  background-color: #25b4d2;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
 figure {
   border: 0;

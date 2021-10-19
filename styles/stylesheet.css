@@ -1,9 +1,15 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cormorant&family=Encode+Sans+SC:wght@400;700&family=Montserrat:wght@600;800&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400&display=swap');
+
 aside {
   width: 30%;
   padding-left: 10px;
   float: right;
-  font-style: italic;
+  font-family: Roboto, sans-serif;
   background-color: lightblue;
+}
+aside > h3 {
+  font-family: Roboto, sans-serif;
 }
 details > summary {
   padding: 4px;
@@ -12,12 +18,14 @@ details > summary {
   border: none;
   box-shadow: 1px 1px 4px #bbbbbb;
   cursor:pointer;
+  font-family: Roboto, sans-serif;
 }
 details > p {
   background-color: #1fccde;
   padding: 4px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
+  font-family: Roboto, sans-serif;
 }
 figure {
   border: 4px #cccccc solid;
@@ -31,6 +39,7 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: left;
+  font-family: Roboto, sans-serif;
 }
 main {
   margin: 0;
@@ -41,21 +50,41 @@ main > h1, p, .browser {
   margin: 10px;
   padding: 5px;
 }
+h1 {
+  font-family: 'Encode Sans SC', sans-serif;
+}
 .all-browsers {
   margin: 0;
   padding: 5px;
   background-color: lightgray;
+  font-family: Roboto, sans-serif;
+
 }
 .browser {
   background: white;
 }
-.browser > h2, p {
+.browser >  p {
   margin: 4px;
-  font-size: 90%;
+
+}
+h2 {
+  font-family: 'Encode Sans SC', sans-serif;
+  color: #25b4d2;
+}
+h3 {
+  font-family: Roboto, sans-serif;
+  color: #4a4e51;
 }
 table, th, td {
   border: 1px solid black;
 }
+p {
+    font-family: Roboto, sans-serif;
+}
+ul, li {
+  font-family: Roboto, sans-serif;
+}
+/* Navigation Bar */
 .navbar {
   width: 100%;
   background-color: #555;
@@ -69,6 +98,7 @@ table, th, td {
   padding: 12px;
   color: white;
   text-decoration: none;
+  font-family: Roboto, sans-serif;
   font-size: 17px;
 }
 
@@ -79,7 +109,7 @@ table, th, td {
 
 /* Current/active navbar link */
 .active {
-  background-color: #04AA6D;
+  background-color: #25b4d2;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
