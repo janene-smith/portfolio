@@ -1,4 +1,6 @@
-
+/* CSS mockstylesheet for
+mock-up.html and
+mock-up-kitty-profile.html */
 * {
   box-sizing: border-box;
 }
@@ -162,7 +164,18 @@ img {
   width: 230px;
   padding: 0;
 }
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  flex-basis: 40%;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
 .footer {
   padding: 20px;
   width: 100%;

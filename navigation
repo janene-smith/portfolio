@@ -11,7 +11,7 @@
         /* second nav bar style */
         .navbar {
           width: 100%;
-          background-color: #555;
+          background-color: #e8e8e8;
           overflow: auto;
         }
 
@@ -20,20 +20,22 @@
           float: left;
           text-align: center;
           padding: 12px;
-          color: white;
+          color: #4a4e51;
           text-decoration: none;
           font-size: 17px;
           font-family: 'Cinzel Decorative', cursive;
         }
 
-        /* Navbar links on mouse-over */
+        /* Navbar links on mouse-over
         .navbar a:hover {
           background-color: #000;
         }
-
+        .navbar a:disabled {
+          background-color: #e8e8e8;
+        }
         /* Current/active navbar link */
         .active {
-          background-color: #04AA6D;
+          background-color: #25b4d2;
         }
 
         /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
@@ -86,13 +88,24 @@
       </nav>
       <div class="navbar">
         <nav>
-            <a class="active" href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a class="active" href="index.html"><i class="fas fa-home"></i> Home</a><a>/</a>
 
-            <a class="topnav" href="about-me.html"><i class="fas fa-book-open"></i> About Me</a>
+            <a class="topnav" href="about-me.html"><i class="fas fa-book-open"></i> About Me</a><a>/</a>
 
-            <a class="topnav" href="mock-up.html"><i class="fas fa-paw"></i> Kitties to GO!</a>
+            <a class="topnav" href="mock-up.html"><i class="fas fa-paw"></i> Kitties to GO!</a><a>/</a>
 
             <a class="topnav" href="mock-up-kitty-profile.html"><i class="fas fa-cat"></i> Kitty Profiles</a>
+        </nav>
+      </div>
+      <div class="navbar">
+        <nav>
+          <a class="active" href="index.html"><i class="fas fa-home"></i> Home</a><a class="disabled">/</a>
+
+          <a class="topnav" href="about-me.html"><i class="fas fa-book-open"></i> About Me</a><a>/</a>
+
+          <a class="topnav" href="mock-up.html"><i class="fas fa-paw"></i> Kitties to GO!</a><a>/</a>
+
+          <a class="topnav" href="mock-up-kitty-profile.html"><i class="fas fa-cat"></i> Kitty Profiles</a>
         </nav>
       </div>
     </header>
@@ -101,4 +114,48 @@
     <h3>This is my portfolio</h3>
     <h4>This is my portfolio</h4>
     <h5>This is my portfolio</h5>
-    </body>
+
+<style media="screen">
+  figure {
+    border: 0;
+    padding: 0;
+    margin: inherit;
+  }
+  figcaption {
+    font-family: sans-serif;
+    color: #4a4e51;
+    font-size: 12px;
+  }
+  img {
+    width: 230px;
+    padding: 0;
+  }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  flex-basis: 40%;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  max-width: 50%;
+
+}
+</style>
+
+<h3>GET TO KNOW ME</h3>
+<div class="container">
+
+  <div class="image">
+    <img src="images/precious.jpg" alt="Image of a cat named Precious. White with black spots, black ears and a patch of black on the chin. Adorable...">
+  </div>
+  <div class="text">
+    <h3 class="kitty-profile">PRECIOUS - American Black and White Shorthair</h3>
+    <p>Precious is the sweetest kitten and loves to cuddle. Precious showed up one day very sick. She was only a couple months old and really in bad shape. With the help of a caring vetenarian and lots of TLC she grew to be a healthy and strong kitten. While we tried to find her owner she ended up becoming a most <em>precious</em> part of our family. As she has aged she has slowed down some, but has become an avid cuddler...<em>purr purr purr.</em></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,16 +1,47 @@
+/* CSS stylesheet for index.html and about-me.html */
+* {
+  box-sizing: border-box;
+}
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;700&family=Roboto:wght@100;300&display=swap');
 
-aside {
-  width: 30%;
-  padding-left: 10px;
-  float: right;
-  font-family: Roboto, sans-serif;
-  background-color: lightblue;
+body {
+  margin: 50px;
+  font-family: sans-serif;
 }
-aside > h3 {
-  font-family: 'Encode Sans SC', sans-serif;
+.side {
+  border-style: groove;
+  border-width:thick;
+  border-color: #a9a9a9;
+  float:right;
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+  width: 310px;
+  padding: 25px 25px;
+  border: 25px 25px;
+  background-color: #ffffff;
   color: #4a4e51;
+  z-index: 999;
+}
+.side h3 {
+  color:#4a4e51;
+  font-weight: bold;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+.sidenav {
+  background-color: #ffffff;
+  overflow: hidden;
+  color: #25b4d2;
+}
+.sidenav a {
+  color: #25b4d2;
+  text-align: left;
+  text-decoration: none;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
 }
 details > summary {
   padding: 4px;
@@ -29,21 +60,39 @@ details > p {
   font-family: Roboto, sans-serif;
 }
 figure {
-  border: 4px #cccccc solid;
+  border: 0;
   padding: 10px;
   margin: inherit;
 }
 figcaption {
   background-color: lightblue;
-  color: gray;
+  width: 50%;
+  color: #4a4e51;
   font-size: 16px;
   font-style: italic;
   padding: 2px;
   text-align: left;
   font-family: Roboto, sans-serif;
 }
+img {
+  width:230px;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  flex-basis: 40%;
+}
+.text {
+  font-size: 20px;
+  padding-left: 0px;
+  width: 50%;
+}
 main {
-  margin: 0;
+  margin: 2px;
   padding: 5px;
   background-color: #dff7fb;
 }
